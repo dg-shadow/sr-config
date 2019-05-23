@@ -6,15 +6,15 @@ ffj0:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 600
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 500
-    torque_limiter_gain: 64
+    torque_limit: 300
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 ffj3:
@@ -25,15 +25,15 @@ ffj3:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 600
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 450
-    torque_limiter_gain: 64
+    torque_limit: 250
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 ffj4:
@@ -44,15 +44,15 @@ ffj4:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 400
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 350
-    torque_limiter_gain: 64
+    torque_limit: 150
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 lfj0:
@@ -63,15 +63,15 @@ lfj0:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 600
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 500
-    torque_limiter_gain: 64
+    torque_limit: 300
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 lfj3:
@@ -82,15 +82,15 @@ lfj3:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 600
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 450
-    torque_limiter_gain: 64
+    torque_limit: 250
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 lfj4:
@@ -101,15 +101,15 @@ lfj4:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 400
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 350
-    torque_limiter_gain: 64
+    torque_limit: 150
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 lfj5:
@@ -120,15 +120,15 @@ lfj5:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 500
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 450
-    torque_limiter_gain: 64
+    torque_limit: 250
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 mfj0:
@@ -139,15 +139,15 @@ mfj0:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 600
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 500
-    torque_limiter_gain: 64
+    torque_limit: 300
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 mfj3:
@@ -158,15 +158,15 @@ mfj3:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 600
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 450
-    torque_limiter_gain: 64
+    torque_limit: 250
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 mfj4:
@@ -177,15 +177,15 @@ mfj4:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 400
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 350
-    torque_limiter_gain: 64
+    torque_limit: 150
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 rfj0:
@@ -196,15 +196,15 @@ rfj0:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 600
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 500
-    torque_limiter_gain: 64
+    torque_limit: 300
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 rfj3:
@@ -215,15 +215,15 @@ rfj3:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 600
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 450
-    torque_limiter_gain: 64
+    torque_limit: 250
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 rfj4:
@@ -234,15 +234,15 @@ rfj4:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 400
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 350
-    torque_limiter_gain: 64
+    torque_limit: 150
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 thj1:
@@ -253,15 +253,15 @@ thj1:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 500
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 400
-    torque_limiter_gain: 64
+    torque_limit: 300
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 thj2:
@@ -272,15 +272,15 @@ thj2:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 500
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 400
-    torque_limiter_gain: 64
+    torque_limit: 300
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 thj3:
@@ -291,15 +291,15 @@ thj3:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 400
+    max_pwm: 1023
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 350
-    torque_limiter_gain: 64
+    torque_limit: 250
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 thj4:
@@ -310,15 +310,15 @@ thj4:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 400
+    max_pwm: 1023
     p: 8200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 150
-    torque_limiter_gain: 64
+    torque_limit: 90
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 thj5:
@@ -329,15 +329,15 @@ thj5:
     f: 300
     i: 0
     imax: 0
-    max_pwm: 400
+    max_pwm: 1023
     p: 8200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
-    torque_limit: 150
-    torque_limiter_gain: 64
+    torque_limit: 90
+    torque_limiter_gain: 100
   pos_filter:
     tau: 0.05
 wrj1:
